@@ -1,1 +1,23 @@
 /*  your css code here. If applicable */
+.square div {
+    width: 10px;
+    height: 10px;
+    background: #0E0E0E;
+    padding: 2px;
+    transition: background-color 1s;
+}
+.container {
+  background: #111;
+  padding: 10px;
+}
+
+.square div:hover {
+  background-color: #FF0000;
+  transition:color 1s ease-out;
+}
+
+.square {
+  display: flex;
+  gap: 3px;
+  flex-flow: wrap;
+}
